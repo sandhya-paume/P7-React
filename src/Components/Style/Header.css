@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    /*width: 1240px;*/
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    gap: 421px;
+    padding-top: 20px;
+    padding-bottom: 63px;
+ 
+}
+
+.header_logo{
+    width: 210.322px;
+    height: 68px;
+    flex-shrink: 0;
+    padding-right: 330px;
+    
+}
+
+.nav {
+    width: 309px;
+    height: 34px;
+    flex-shrink: 0;
+    
+}
+
+.nav_home{
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 34.224px */
+    text-decoration-line: none;
+    width: 136px;
+    margin-right: 53px;
+    margin-left: 60px;
+}
+
+.nav_about{
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 34.224px */
+    width: 116px;
+    text-decoration-line: none;
+    
+}

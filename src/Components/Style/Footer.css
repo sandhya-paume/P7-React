@@ -1,0 +1,27 @@
+.footer {
+    /*display: flex;
+    flex-direction: column; /* Changer la direction de la disposition en colonne */
+    /*justify-content: center; /* Centrer verticalement */
+    /*align-items: center;*/ /* Centrer horizontalement */
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center; /* Centrer le texte */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Occupe toute la largeur */
+    height: 95px;
+    margin-top: 50px;
+  }
+  
+  .logo-footer img {
+    width: 100px; /* Ajustez la taille du logo selon vos besoins */
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .text-footer {
+    font-size: 14px;
+  }
+  

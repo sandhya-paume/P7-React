@@ -1,0 +1,39 @@
+.banner{
+    position: relative;
+    border-radius: 25px;
+    width: 70%;
+    height: 223px;
+    /*max-width: 95%;
+    margin: 43px auto;*/
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../../Assets/home_cover.png');*/
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    color: white;
+    opacity: 0.9;
+    margin-bottom: 75px;
+    margin-left: 16%;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+}
+
+h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    z-index: 1;
+    position: absolute;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+}
+
+.banner_img{
+    border-radius: 0.8rem;
+    filter: brightness(70%);
+    height: 190px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+}

@@ -1,0 +1,158 @@
+.accommodation{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.carrousel{
+    width: 1280px;
+    height: 415px;
+    flex-shrink: 0;
+    background-color: #FF6060;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.container_name{
+    display: flex;
+    flex-direction: row; /* Align children horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.container_tags{
+    display: flex;
+    flex-direction: initial;
+    align-items: center; /* Center items vertically */
+    gap: 30px;
+    width: 80%;
+}
+
+.name{
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 51.336px */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    padding-top:20px;
+    width: 50%;
+}
+
+.host_name{
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 25.668px */
+    margin-top: 18px;
+    width: 38%;
+}
+
+.host_pic{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    fill: #C4C4C4;
+    
+}
+
+.location{
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 25.668px */
+}
+
+.tags{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 19.964px */
+    border-radius: 10px;
+    background: #FF6060;
+    width: 115px ;
+}
+
+.rates{
+    width:60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.stars_tags{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container_text{
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    width: 582px;
+    height: 50%;
+    flex-shrink: 0;
+    color:#FF6060;
+    margin-right: 50px;
+}
+
+.equipment{
+    width: 582px;
+    height: 50%;
+    flex-shrink: 0;
+    color:#FF6060;
+    margin-left: 30px;
+}
+
+.headers{
+    display: flex;
+    height: 52px;
+    flex-direction: row;
+}
+
+.collapsedescription{
+    display: flex;
+    flex-direction: row;
+    width: 582px;
+    height: 40px;
+    margin-right: 95px;
+    flex-shrink: 0;
+    background-color:#FF6060;
+    color:#FFF;
+    border-radius: 5px;
+    
+}
+ 
+.description.collapsed,
+.equipment.collapsed {
+    visibility: hidden;
+}
+
+.collapse_title{
+    margin-left:15px;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.collapse_arrow{
+    margin-left: 100%;
+    margin-top: 5px;
+}
+
+.img_host{
+    border-radius: 3rem;
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}

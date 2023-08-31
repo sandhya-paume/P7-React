@@ -1,0 +1,58 @@
+.gallery{
+    /*width: 1240px;
+    height: 829px;*/
+    width: 80%;
+    flex-shrink: 0; /* Réduit les éléments flexibles lorsque l'espace est limité */
+    /*padding: 160px;*/
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    color: #ff6060;
+    display: flex;
+    flex-wrap: wrap; 
+    padding-left: 10%;
+    gap: 50px; /* Espacement entre les éléments */
+    /*overflow-y: auto;  Ajout d'une sroll bar pour respecter les dimensions D_Home de Figma */
+}
+
+.thumb{
+    /*width: calc(24% - 25px); /* Réglage pour trois cartes par ligne */
+    /*height: 340px;
+    flex-shrink: 0; 
+    text-decoration: none;
+    margin-left: 3px; */
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    
+ }
+
+.thumb img{
+    width: 340px;
+    height: 340px;
+    /*border-radius: 10px;
+    flex-shrink: 0;
+    background-color: #ff6060;
+    opacity:0.44;*/
+}
+
+.thumb p{
+    width: 300px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; /* 25.668px */
+    margin-top: -60px;
+    margin-left: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
