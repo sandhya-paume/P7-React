@@ -28,8 +28,8 @@ h1{
 .about_banner_img{
     border-radius: 0.8rem;
     filter: brightness(70%);
-    height: 190px;
+    height: 198px;
     object-fit: cover;
     position: relative;
-    width: 100%;
+    width: 70%;
 }

@@ -4,7 +4,7 @@ const isStarRed = (rates,index) => {
     if (rates - index > 0) {
         return true; // Si la différence est positive, l'étoile doit être rouge
     } else {
-        return false; // Sinon, l'étoile doit être grise
+        return false; // Sinon, l'étoile doit être grisé
     }
 };
 

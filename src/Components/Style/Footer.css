@@ -1,8 +1,4 @@
 .footer {
-    /*display: flex;
-    flex-direction: column; /* Changer la direction de la disposition en colonne */
-    /*justify-content: center; /* Centrer verticalement */
-    /*align-items: center;*/ /* Centrer horizontalement */
     background-color: black;
     padding: 20px;
     color: white;
@@ -10,8 +6,8 @@
     bottom: 0;
     left: 0;
     width: 100%; /* Occupe toute la largeur */
-    height: 95px;
-    margin-top: 50px;
+    height: 100%;
+   
   }
   
   .logo-footer img {

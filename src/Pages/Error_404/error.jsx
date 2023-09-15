@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../Error_404/error.css";
+import "../Error_404/Error.css";
 
 function Error() {
   return (

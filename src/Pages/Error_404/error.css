@@ -23,11 +23,12 @@ font-weight: 500;
 }
 
 .return{
-    color: #FF6060;
+color: #FF6060;
 font-family: Montserrat;
 font-size: 18px;
 font-style: normal;
 font-weight: 500;
-padding-top: 125px;;
+padding-top: 100px;
+margin-bottom: 45px;
 text-decoration-line: underline;
 }
