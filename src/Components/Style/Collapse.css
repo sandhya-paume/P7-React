@@ -57,4 +57,13 @@
     font-size: 20px;
     padding: 0.4rem 0.5rem;
   }
+
+  .liste{
+    list-style-type : none;
+  }
+
+  .Spacer{
+    width: 10%;
+  }
+  
   

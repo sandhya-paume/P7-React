@@ -1,3 +1,7 @@
+/* Importation de la police Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
 .about_banner{
     border-radius: 25px;
     width: 100%;
@@ -9,9 +13,9 @@
     color: white;
     opacity: 0.9;
     margin-bottom: 75px;
-    margin-left:28px;
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+    margin: 0 auto;
+    font-family:'Montserrat';
+    margin-bottom: 15px;
 }
 
 h1{
@@ -21,8 +25,6 @@ h1{
     font-style: normal;
     z-index: 1;
     position: absolute;
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
 }
 
 .about_banner_img{
@@ -31,5 +33,51 @@ h1{
     height: 198px;
     object-fit: cover;
     position: relative;
-    width: 70%;
+    width: 60%;
+}
+
+.about_rules{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about{
+    width: 100%;
+    min-height: 750px;
+    margin: 0 auto;
+}
+
+.headers{
+    width: 100%;
+}
+
+.collapseabout{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    height: 52px;
+    flex-shrink: 0;
+    background-color: #FF6060;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.aboutdescription{
+    margin-left: 10%;
+    width: 80%;
+    flex-shrink: 0;
+    color:#FF6060;
+    margin-top: 15px;
+    font-family:'Montserrat';
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.6%;
+    margin-bottom: 15px;
+}
+
+.aboutdescription.collapsed {
+    visibility: hidden;
 }

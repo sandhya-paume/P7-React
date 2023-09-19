@@ -2,7 +2,6 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from "./Components/Index/Header.jsx";
 import Banner from "../src/Pages/Home/Index/Banner.jsx";
@@ -11,6 +10,7 @@ import Footer from "../src/Components/Index/Footer.jsx";
 import Accommodation from './Pages/Accommodation_Sheet/Index/Accommodation';
 import About from "../src/Pages/About/About.jsx";
 import Error from "./Pages/Error_404/Error.jsx";
+//import Carrousel from "../src/Pages/Accommodation_Sheet/Index/Carrousel.jsx";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

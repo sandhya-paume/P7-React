@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import "../../Accommodation_Sheet/Style/Carrousel.css"; 
 
-const Carousel = ({ images }) => {
+const Carrousel = ({ images }) => {
+
+  console.log("images : "+images);
+
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -13,11 +16,11 @@ const Carousel = ({ images }) => {
   };
 
   return (
-    <div className="carousel-container">
+    <div className="carrousel-container">
       <button className="arrow-button prev-button" onClick={prevSlide}>
         &lt; Précédent
       </button>
-      <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} />
+      <img className="img_carrousel" src={images[currentIndex]} alt={`Slide ${currentIndex}`} />
       <button className="arrow-button next-button" onClick={nextSlide}>
         Suivant &gt;
       </button>
@@ -25,4 +28,4 @@ const Carousel = ({ images }) => {
   );
 };
 
-export default Carousel;
+export default Carrousel;

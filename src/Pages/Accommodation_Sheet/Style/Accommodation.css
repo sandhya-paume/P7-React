@@ -1,3 +1,6 @@
+/* Importation de la police Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .accommodation{
     display: flex;
     flex-direction: column;
@@ -5,88 +8,105 @@
 }
 
 .carrousel{
-    width: 100%;
+    width: 1240px;
     height: 415px;
     flex-shrink: 0;
-    background-color: #FF6060;
-    display: flex;
-    flex-wrap: wrap; 
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+
+.contenu{
+    width: 1240px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container_name{
     display: flex;
-    flex-direction: row; /* Align children horizontally */
-    align-items: center; /* Center items vertically */
+    flex-direction: row; 
 }
 
 .container_tags{
     display: flex;
     flex-direction: initial;
-    align-items: center; /* Center items vertically */
-    gap: 30px;
+    align-items: center; 
     width: 80%;
 }
 
 .name{
     color: #FF6060;
-    font-family: Montserrat;
     font-size: 36px;
     font-style: normal;
     font-weight: 500;
-    line-height: 142.6%; /* 51.336px */
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    font-family:'Montserrat';
     padding-top:20px;
-    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
-.host_name{
+.first_name{
     color: #FF6060;
-    text-align: right;
     font-family: Montserrat;
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    font-family:'Montserrat';
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     margin-top: 18px;
-    width: 38%;
-}
-
-.host_pic{
-    width: 64px;
-    height: 64px;
-    flex-shrink: 0;
-    fill: #C4C4C4;
+    position: absolute;
+    right: 535px;
     
 }
+
+.last_name{
+    color: #FF6060;
+    font-family: Montserrat;
+    font-family:'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 18px;
+    position: absolute;
+    right: 535px;
+    top:600px;
+  
+}
+
+
+
 
 .location{
     color: #FF6060;
     font-family: Montserrat;
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    font-family:'Montserrat';
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 142.6%; /* 25.668px */
 }
 
 .tags{
     color: #FFF;
     text-align: center;
-    font-family: Montserrat;
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    font-family:'Montserrat';
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 160%; /* 19.964px */
+    line-height: 200.6%;
     border-radius: 10px;
     background: #FF6060;
     width: 115px ;
+    height: 30px;
+    margin-right: 10px;
 }
 
 .rates{
     width:60px;
     height: 60px;
     flex-shrink: 0;
+    margin-left: 50px;
+    margin-top: 35px;
 }
 
 .stars_tags{
@@ -101,11 +121,23 @@
 }
 
 .description{
-    width: 582px;
-    height: 50%;
+ 
     flex-shrink: 0;
     color:#FF6060;
-    margin-right: 50px;
+    margin-top: 15px;
+    font-family:'Montserrat';
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.6%;
+    width: 582px;
+    
+}
+
+.description ul{
+    margin-left: 0;
+    margin-top:0;
 }
 
 .equipment{
@@ -114,20 +146,34 @@
     flex-shrink: 0;
     color:#FF6060;
     margin-left: 30px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.6%;
+}
+
+.details{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  
 }
 
 .headers{
     display: flex;
-    height: 52px;
-    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    
 }
 
 .collapsedescription{
     display: flex;
     flex-direction: row;
     width: 582px;
-    height: 40px;
-    margin-right: 95px;
+    height: 52px;
     flex-shrink: 0;
     background-color:#FF6060;
     color:#FFF;
@@ -135,27 +181,30 @@
     
 }
  
-.description.collapsed,
-.equipment.collapsed {
+.description.collapsed {
     visibility: hidden;
 }
 
 .collapse_title{
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    font-family:'Montserrat';
     margin-left:15px;
     margin-top: 5px;
     width: 80%;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 210.6%
 }
 
 .collapse_arrow{
-    margin-left: 100%;
-    margin-top: 5px;
+    margin-left: 155%;
+    margin-top: 10px;
 }
 
 .img_host{
     border-radius: 3rem;
-    margin-left: 20px;
-    width: 70px;
-    height: 70px;
+    height: 80px;
     margin-top: 10px;
+    margin-left: 146px;
 }
+

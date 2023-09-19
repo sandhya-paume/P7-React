@@ -1,11 +1,19 @@
 
 
-.carousel-container {
+.carrousel-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1240px;
+    height: 415px;
   }
-  
+
+  .img_carrousel{
+    width: 1240px;
+    height: 415px;
+    margin-top: -35px;
+    border-radius: 12px;
+  }
   .arrow-button {
     background-color: #333;
     color: white;
@@ -22,11 +30,13 @@
     margin-left: auto;
   }
   
-  img {
+  .host_pic {
     max-width: 100%;
     height: auto;
     margin-top: 16px;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   position: absolute;
+   top: 553px;
+   right:435px;
   }
+  
   
