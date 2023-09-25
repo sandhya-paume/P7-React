@@ -3,9 +3,6 @@
     border-radius: 25px;
     width: 70%;
     height: 223px;
-    /*max-width: 95%;
-    margin: 43px auto;*/
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../../Assets/home_cover.png');*/
     background-position: center;
     background-size: cover;
     display: grid;
@@ -36,4 +33,36 @@ h1{
     object-fit: cover;
     position: relative;
     width: 100%;
+}
+
+
+/* Styles pour les écrans de taille moyenne (tablette) */
+@media (max-width: 768px) {
+    .banner {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    h1 {
+        font-size: 36px !important;
+    }
+    .banner_img {
+        height: 150px;
+    }
+}
+
+/* Styles pour les écrans étroits (téléphones mobiles) */
+@media (max-width: 480px) {
+    .banner {
+        width: 100%;
+        border-radius: 0;
+        margin:0px 0;
+    }
+    h1 {
+        font-size: 18px !important;
+        
+    }
+    .banner_img {
+        height: 120px;
+    }
 }

@@ -5,7 +5,7 @@ import Location from "../../Accommodation_Sheet/Index/Location.jsx";
 import ContainerTags from "../../Accommodation_Sheet/Index/ContainerTags.jsx";
 import ContainerName from "../../Accommodation_Sheet/Index/ContainerName.jsx";
 import ContainerText from "../../Accommodation_Sheet/Index/ContainerText.jsx";
-import Carrousel from '../../Accommodation_Sheet/Index/Carrousel.jsx';
+import Slideshow from '../../Accommodation_Sheet/Index/Slideshow.jsx';
 import { useParams } from 'react-router-dom';
 
 
@@ -19,7 +19,7 @@ const { AccommodationId } = useParams();
 
         return (
             <div className="accommodation">
-                <div className="carrousel"><Carrousel images={desiredData.pictures} /></div>
+                <div className="carrousel"><Slideshow images={desiredData.pictures} /></div>
                     <div className="contenu">
                         <ContainerName
                             name={desiredData.title}

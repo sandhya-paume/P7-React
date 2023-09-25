@@ -1,6 +1,5 @@
 .header{
     display: flex;
-    /*width: 1240px;*/
     height: 68px;
     justify-content: center;
     align-items: center;
@@ -32,7 +31,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 142.6%; /* 34.224px */
+    line-height: 142.6%; 
     text-decoration-line: none;
     width: 136px;
     margin-right: 53px;
@@ -46,8 +45,42 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 142.6%; /* 34.224px */
+    line-height: 142.6%; 
     width: 116px;
     text-decoration-line: none;
     
+}
+
+/*--------------------------- RESPONSIVE DESIGN ------------------------------*/
+
+
+/* Styles pour les écrans de taille moyenne (tablettes) */
+@media (max-width: 768px) {
+
+    .header_logo{
+    width: 0px; 
+    height: 60px;
+    flex-shrink: 0;
+    }
+
+    .header{
+        gap: 0px;
+    }
+}
+
+/* Styles pour les écrans étroits (téléphones mobiles) */
+@media (max-width: 480px) {
+    .header {
+        padding: 10px 0;    
+    }
+
+    .header_logo {
+        width: 120px; 
+    }
+
+    .nav_home,
+    .nav_about {
+        font-size: 14px; 
+        margin: 3px; 
+    }
 }

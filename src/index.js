@@ -10,7 +10,7 @@ import Footer from "../src/Components/Index/Footer.jsx";
 import Accommodation from './Pages/Accommodation_Sheet/Index/Accommodation';
 import About from "../src/Pages/About/About.jsx";
 import Error from "./Pages/Error_404/Error.jsx";
-//import Carrousel from "../src/Pages/Accommodation_Sheet/Index/Carrousel.jsx";
+//import Carrousel from "../src/Pages/Accommodation_Sheet/Index/Slideshow.jsx";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -205,6 +205,73 @@
     border-radius: 3rem;
     height: 80px;
     margin-top: 10px;
-    margin-left: 146px;
+    position: absolute;
+    right: 430px;
+  
+}
+body{
+    margin:0 !important;    
 }
 
+/* Styles pour les écrans de taille moyenne (tablette) */
+@media (max-width: 768px) {
+    .img_host{
+        right: 27px;
+    }
+
+    .first_name, 
+    .last_name{
+        right: 130px;
+    }
+
+       
+    .stars_tags{
+        margin-right: 135px;
+    }
+
+    .name{
+        font-size: 20px;
+    }
+    
+    .collapsedescription{
+        width: 350px;
+    }
+    .collapse_arrow{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .details{
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+      
+    }
+    .description{
+ 
+        flex-shrink: 0;
+        color:#FF6060;
+        margin-top: 15px;
+        font-family:'Montserrat';
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 142.6%;
+        width: 350px;
+        
+    }
+    .contenu{
+        width: 738px;
+        height: 900px;
+        flex-shrink: 0;
+        margin-left: 15px;
+    }
+   
+    
+    #root
+    {
+        width:768px;
+    }
+    
+}

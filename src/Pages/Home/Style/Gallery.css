@@ -14,7 +14,7 @@
     padding-bottom: 3%;
     padding-top: 3%;
     border-radius: 10px;
-    margin-bottom: 10px;;
+    margin-bottom: 50px;;
  }
 
 .thumb{
@@ -28,24 +28,24 @@
 .thumb img{
     width: 340px;
     height: 340px;
+    object-fit: cover;
 }
 
 .thumb p{
     width: 300px;
     color: #FFF;
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 142.6%; 
     margin-top: -60px;
-    margin-left: 12px;
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
     padding: 8px;
-    text-align: center;
+    text-align: left;
     transition: opacity 0.3s ease-in-out;
     opacity: 1;
 }
+
+

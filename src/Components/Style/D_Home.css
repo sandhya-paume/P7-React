@@ -1,10 +1,26 @@
 .Main_container{
     display: flex;
-width: 1440px;
-padding: 40px 100px 0px 100px;
-flex-direction: column;
-justify-content: flex-end;
-align-items: flex-start;
-gap: 63px;
-background: #FFF;
+    width: 1440px;
+    padding: 40px 100px 0px 100px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 63px;
+    background: #FFF;
+}
+
+/* Styles pour les écrans de taille moyenne (tablettes) */
+@media (max-width: 768px) {
+    .Main_container {
+        width: 768px;
+        padding: 20px 10px; 
+    }
+}
+
+/* Styles pour les écrans étroits (téléphones mobiles) */
+@media (max-width: 480px) {
+    .Main_container {
+        width: 480px;
+        padding: 10px 5px; 
+    }
 }

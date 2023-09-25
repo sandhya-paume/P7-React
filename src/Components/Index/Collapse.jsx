@@ -33,7 +33,7 @@ return ( // Contenu du composant Collapse en entier
           <div className="collapse_title"> {title}</div> 
             <div>  
               <svg  className="collapse_arrow" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-                <g clip-path="url(#clip0_193794_85)">
+                <g clipPath="url(#clip0_193794_85)">
                   <path d={`${isDescriptionCollapsed? arrowDown : arrowUp}`} fill="white"/>
                 </g>
                 <defs>

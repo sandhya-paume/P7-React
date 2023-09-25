@@ -81,3 +81,16 @@ h1{
 .aboutdescription.collapsed {
     visibility: hidden;
 }
+
+
+/* Styles pour les écrans de taille moyenne (tablettes) */
+@media (max-width: 768px) {
+    
+.about_banner_img{
+    width: 100%;
+}
+
+.about_rules{
+    width: 100%;
+}
+}

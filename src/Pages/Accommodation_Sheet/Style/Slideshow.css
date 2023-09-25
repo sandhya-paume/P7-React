@@ -1,0 +1,64 @@
+/* Importation de la police Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.carrousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; 
+  width: 1240px;
+  height: 415px;
+}
+
+.img_carrousel {
+  width: 1240px;
+  height: 415px;
+  margin-top: -35px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.arrow-button {
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute; 
+  background-color: transparent;
+}
+
+.prev-button {
+  left: 0; 
+  top: 40%; 
+  transform: translateY(-50%); 
+}
+
+.next-button {
+  right: 0; 
+  top: 40%; 
+  transform: translateY(-50%); 
+}
+
+.pagination{
+  background-color: transparent;
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+  bottom: 45px;
+}
+
+/* Styles pour les écrans de taille moyenne (tablette) */
+@media (max-width: 768px) {
+  .carrousel-container,
+  .carrousel{
+    width: 768px;
+  }
+}
+
+  
+  

@@ -8,7 +8,7 @@ function About() {
   return (
     <div className="about">
         <div className="about_banner">
-            <img src= {aboutBanner} alt="about_banner" class="about_banner_img"/>
+            <img src= {aboutBanner} alt="about_banner" className="about_banner_img"/>
         </div>
             <div className="about_rules">                    
               <Collapse title="Fiabilité"
