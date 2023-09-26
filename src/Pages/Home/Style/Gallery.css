@@ -49,3 +49,11 @@
 }
 
 
+/* Styles pour les écrans étroits (téléphones mobiles) */
+@media (max-width: 480px) {
+.gallery{
+    margin-left: 8%;
+
+}
+
+}

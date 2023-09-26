@@ -71,16 +71,24 @@
 /* Styles pour les écrans étroits (téléphones mobiles) */
 @media (max-width: 480px) {
     .header {
-        padding: 10px 0;    
+        padding: 0px 0px 0px 0px;
+        gap: 0px;
+        width:480px;
+        justify-content: left;
     }
 
     .header_logo {
-        width: 120px; 
+        width: 240px; 
+        padding:0;
     }
 
     .nav_home,
     .nav_about {
-        font-size: 14px; 
+        font-size: 20px; 
         margin: 3px; 
+    }
+
+    .nav{
+        width:200px;
     }
 }

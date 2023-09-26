@@ -33,3 +33,10 @@ padding-top: 100px;
 margin-bottom: 45px;
 text-decoration-line: underline;
 }
+
+/* Styles pour les écrans de taille moyenne (tablette) */
+@media (max-width: 768px) {
+.container_error{
+    margin-bottom: 45%;
+}
+}

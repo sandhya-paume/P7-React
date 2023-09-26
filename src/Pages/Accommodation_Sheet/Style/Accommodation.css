@@ -213,6 +213,8 @@ body{
     margin:0 !important;    
 }
 
+/* ---------------------------- RESPONSIVE DESING -------------------------------*/
+
 /* Styles pour les écrans de taille moyenne (tablette) */
 @media (max-width: 768px) {
     .img_host{
@@ -263,7 +265,7 @@ body{
     }
     .contenu{
         width: 738px;
-        height: 900px;
+        height: 650px;
         flex-shrink: 0;
         margin-left: 15px;
     }
@@ -272,6 +274,73 @@ body{
     #root
     {
         width:768px;
+    }
+    
+}
+
+/* Styles pour les écrans étroits (téléphones mobiles) */
+@media (max-width: 480px) {
+    .img_host{
+        left: 645px;
+        position: absolute;
+        bottom: 170px;
+    }
+
+    .first_name, 
+    .last_name{
+        right: 130px;
+    }
+
+       
+    .stars_tags{
+        margin-right: 135px;
+    }
+
+    .name{
+        font-size: 20px;
+        width:480px;
+        margin-left:0;
+    }
+    
+    .collapsedescription{
+        width: 350px;
+    }
+    .collapse_arrow{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .details{
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+      
+    }
+    .description{
+ 
+        flex-shrink: 0;
+        color:#FF6060;
+        margin-top: 15px;
+        font-family:'Montserrat';
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 142.6%;
+        width: 350px;
+        
+    }
+    .contenu{
+        width: 480px;
+        height: 650px;
+        flex-shrink: 0;
+        margin-left: 0px;
+    }
+   
+    
+    #root
+    {
+        width:480px;
     }
     
 }
