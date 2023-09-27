@@ -38,5 +38,27 @@ text-decoration-line: underline;
 @media (max-width: 768px) {
 .container_error{
     margin-bottom: 45%;
+    }
 }
+
+/* Styles pour les écrans étroits (téléphones mobiles) */
+@media (max-width: 480px) {
+    .container_error{
+        margin-bottom: 45%;
+    }
+
+    .error,
+    .error_msg{
+        width: 412px;
+        margin-top: 70px;
+    }
+
+    .error{
+        font-size:30px !important;
+    }
+
+    .return{
+        margin-top: 40px;
+    }
+    
 }

@@ -20,7 +20,7 @@
 /* Styles pour les écrans étroits (téléphones mobiles) */
 @media (max-width: 480px) {
     .Main_container {
-        width: 480px;
+        width: 380px;
         padding: 10px 5px; 
     }
 }

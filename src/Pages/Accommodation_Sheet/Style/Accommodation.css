@@ -213,10 +213,21 @@ body{
     margin:0 !important;    
 }
 
-/* ---------------------------- RESPONSIVE DESING -------------------------------*/
+.Spacer{
+    width: 80px;
+  }
 
-/* Styles pour les écrans de taille moyenne (tablette) */
+  .CollapseBox
+  {
+    display:flex;
+    flex-direction: row;
+  }
+
+                            /* ---------------------------- RESPONSIVE DESING -------------------------------*/
+
+        /* -------------------------------> Styles pour les écrans de taille moyenne (tablette) <-------------------- */
 @media (max-width: 768px) {
+
     .img_host{
         right: 27px;
     }
@@ -278,32 +289,69 @@ body{
     
 }
 
-/* Styles pour les écrans étroits (téléphones mobiles) */
+                /* -----------------> Styles pour les écrans étroits (téléphones mobiles) <-----------------------------*/
+
 @media (max-width: 480px) {
+    
+    .headers{
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 15px;
+        
+    }
     .img_host{
-        left: 645px;
+        left: 325px;
         position: absolute;
-        bottom: 170px;
+        bottom: 165px;
+        height: 65px;
     }
 
-    .first_name, 
+    .first_name,
     .last_name{
-        right: 130px;
+        position: absolute;
+        right: 110px;
+        margin-top: 115px;
+        bottom: 200px;
     }
-
+    
+    .rates{
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 85px;
+    }
        
     .stars_tags{
-        margin-right: 135px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+
     }
 
     .name{
-        font-size: 20px;
-        width:480px;
-        margin-left:0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-shrink: 0;
+        font-size: 25px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        width:380px;
     }
-    
+
+    .location{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-shrink: 0;
+        font-size: 15px;
+        margin-left:20px;
+        margin-bottom: 15px;
+    }
+
     .collapsedescription{
-        width: 350px;
+        width: 380px;
     }
     .collapse_arrow{
         margin-left: 0;
@@ -313,7 +361,7 @@ body{
         margin-left: 0;
         margin-right: 0;
         display: flex;
-        justify-content: center;
+        justify-content: normal;
       
     }
     .description{
@@ -327,20 +375,41 @@ body{
         font-style: normal;
         font-weight: 400;
         line-height: 142.6%;
-        width: 350px;
+        width:  380px;
         
     }
     .contenu{
-        width: 480px;
-        height: 650px;
+        
         flex-shrink: 0;
         margin-left: 0px;
+        width:380px;
+        height:1000px;
     }
    
-    
-    #root
-    {
-        width:480px;
+    #root {
+        width:380px;
     }
     
+    .container_tags{
+        width: 380px;
+        margin-bottom: 115px;
+       
+    }
+
+    .CollapseBox{
+    display:flex;
+    flex-direction: column;
+    }
+
+    .Spacer{
+        width: 100px;
+      }
+
+    .tags{
+        height: 37px;
+        line-height: 15px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }  
 }

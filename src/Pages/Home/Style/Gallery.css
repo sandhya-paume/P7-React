@@ -53,7 +53,7 @@
 @media (max-width: 480px) {
 .gallery{
     margin-left: 8%;
-
+    width: 95%;
 }
 
 }

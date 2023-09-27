@@ -52,6 +52,11 @@
   bottom: 45px;
 }
 
+.arrows{
+  width:48px;
+  height:80px;
+}
+
 /*------------------------------------- RESPONSIVE DESIGN ------------------------------*/
 
 /* Styles pour les écrans de taille moyenne (tablette) */
@@ -64,21 +69,36 @@
 
 /* Styles pour les écrans étroits (téléphones mobiles) */
 @media (max-width: 480px) {
-  .carrousel-container,
-  .carrousel,
+ 
+  .carrousel{
+    margin-top: 0px;
+    max-width: 380px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+
+
   .img_carrousel{
     margin-top: 0px;
-    width: 480px;
+    max-width: 380px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .carrousel-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative; 
-    width: 480px;
-    height: 415px;
-  }
+    margin-top: 0px;
+    margin-left: 7px;
+    max-width: 400px;
 
+  }
+  .arrows{
+    width:24px;
+    height:40px;
+  }
   .arrow-button {
     color: white;
     padding: 8px 16px;
@@ -90,13 +110,13 @@
   
   .prev-button {
     left: 0; 
-    top: 40%; 
+    top: 52%; 
     transform: translateY(-50%); 
   }
   
   .next-button {
-    right: 65px; 
-    top: 40%; 
+    right: 5px; 
+    top: 52%; 
     transform: translateY(-50%); 
   }
 

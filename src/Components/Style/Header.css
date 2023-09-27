@@ -73,8 +73,9 @@
     .header {
         padding: 0px 0px 0px 0px;
         gap: 0px;
-        width:480px;
+        width:380px;
         justify-content: left;
+        margin-left: 15px;
     }
 
     .header_logo {
@@ -90,5 +91,6 @@
 
     .nav{
         width:200px;
+        margin-left: -40px;
     }
 }

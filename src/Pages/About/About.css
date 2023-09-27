@@ -94,3 +94,18 @@ h1{
     width: 100%;
 }
 }
+
+/* Styles pour les écrans de taille petite (telephone) */
+@media (max-width: 480px) {
+    
+    .about_banner_img{
+        width: 100%;
+        margin-left: 30px;
+    }
+    
+    .about_rules{
+        width: 100%;
+    }
+
+
+    }
