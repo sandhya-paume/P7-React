@@ -34,15 +34,22 @@ margin-bottom: 45px;
 text-decoration-line: underline;
 }
 
-/* Styles pour les écrans de taille moyenne (tablette) */
-@media (max-width: 768px) {
-.container_error{
-    margin-bottom: 45%;
-    }
-}
+                                /*--------------------------- RESPONSIVE DESIGN ------------------------------*/
 
-/* Styles pour les écrans étroits (téléphones mobiles) */
+
+            /* -----------------------> Styles pour les écrans de taille moyenne (tablettes) <----------------------------------- */
+
+@media (max-width: 768px) {
+
+    .container_error{
+        margin-bottom: 45%;
+        }
+    }
+
+                /* -----------------> Styles pour les écrans étroits (téléphones mobiles) <-----------------------------*/
+
 @media (max-width: 480px) {
+
     .container_error{
         margin-bottom: 45%;
     }

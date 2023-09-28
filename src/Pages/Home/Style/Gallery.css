@@ -1,20 +1,19 @@
 .gallery{
-    height: 100%;
-    width: 70%;
-    flex-shrink: 0; /* Réduit les éléments flexibles lorsque l'espace est limité */
+    width: 58%;
+    flex-shrink: 0; 
     justify-content: center;
     background-position: center;
     background-size: cover;
     background-color: #F6F6F6;
     display: flex;
     flex-wrap: wrap; 
-    margin-left: 16%;
+    margin-left: 22%;
     margin-bottom: 40px;
-    gap: 50px; /* Espacement entre les éléments */
+    gap: 50px; 
     padding-bottom: 3%;
     padding-top: 3%;
     border-radius: 10px;
-    margin-bottom: 50px;;
+    margin-bottom: 25px;;
  }
 
 .thumb{
@@ -48,12 +47,13 @@
     opacity: 1;
 }
 
+                /* -----------------> Styles pour les écrans étroits (téléphones mobiles) <-----------------------------*/
 
-/* Styles pour les écrans étroits (téléphones mobiles) */
-@media (max-width: 480px) {
-.gallery{
-    margin-left: 8%;
-    width: 95%;
-}
+    @media (max-width: 480px) {
+
+    .gallery{
+        margin-left: 8%;
+        width: 95%;
+    }
 
 }

@@ -82,20 +82,23 @@ h1{
     visibility: hidden;
 }
 
+                                /*--------------------------- RESPONSIVE DESIGN ------------------------------*/
 
-/* Styles pour les écrans de taille moyenne (tablettes) */
+
+            /* -----------------------> Styles pour les écrans de taille moyenne (tablettes) <----------------------------------- */
+
 @media (max-width: 768px) {
     
-.about_banner_img{
-    width: 100%;
+    .about_banner_img{
+        width: 100%;
+    }
+
+    .about_rules{
+        width: 100%;
+    }
 }
 
-.about_rules{
-    width: 100%;
-}
-}
-
-/* Styles pour les écrans de taille petite (telephone) */
+                /* -----------------> Styles pour les écrans étroits (téléphones mobiles) <-----------------------------*/
 @media (max-width: 480px) {
     
     .about_banner_img{
@@ -106,6 +109,4 @@ h1{
     .about_rules{
         width: 100%;
     }
-
-
-    }
+}

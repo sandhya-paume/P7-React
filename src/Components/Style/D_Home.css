@@ -9,16 +9,24 @@
     background: #FFF;
 }
 
-/* Styles pour les écrans de taille moyenne (tablettes) */
+
+                                /*--------------------------- RESPONSIVE DESIGN ------------------------------*/
+
+
+            /* -----------------------> Styles pour les écrans de taille moyenne (tablettes) <----------------------------------- */
+
 @media (max-width: 768px) {
+
     .Main_container {
         width: 768px;
         padding: 20px 10px; 
     }
 }
 
-/* Styles pour les écrans étroits (téléphones mobiles) */
+  /* -----------------> Styles pour les écrans étroits (téléphones mobiles) <-----------------------------*/
+
 @media (max-width: 480px) {
+    
     .Main_container {
         width: 380px;
         padding: 10px 5px; 

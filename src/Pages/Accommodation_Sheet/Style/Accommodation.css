@@ -22,6 +22,7 @@
     flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Montserrat';
 }
 
 .container_name{
@@ -49,7 +50,6 @@
 
 .first_name{
     color: #FF6060;
-    font-family: Montserrat;
     font-family:'Montserrat';
     font-size: 18px;
     font-style: normal;
@@ -62,7 +62,6 @@
 
 .last_name{
     color: #FF6060;
-    font-family: Montserrat;
     font-family:'Montserrat';
     font-size: 18px;
     font-style: normal;
@@ -73,9 +72,6 @@
     top:600px;
   
 }
-
-
-
 
 .location{
     color: #FF6060;
@@ -121,12 +117,10 @@
 }
 
 .description{
- 
     flex-shrink: 0;
     color:#FF6060;
     margin-top: 15px;
     font-family:'Montserrat';
-    font-family: Montserrat;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -146,7 +140,7 @@
     flex-shrink: 0;
     color:#FF6060;
     margin-left: 30px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -166,7 +160,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     flex-direction: column;
-    
+    font-family: 'Montserrat';
 }
 
 .collapsedescription{
@@ -178,6 +172,7 @@
     background-color:#FF6060;
     color:#FFF;
     border-radius: 5px;
+    
     
 }
  
@@ -226,29 +221,39 @@ body{
                             /* ---------------------------- RESPONSIVE DESING -------------------------------*/
 
         /* -------------------------------> Styles pour les écrans de taille moyenne (tablette) <-------------------- */
+
 @media (max-width: 768px) {
 
     .img_host{
-        right: 27px;
+        right: 55px;
+        bottom: 300px;
+        border-radius: 3rem;
+        height: 70px;
     }
 
-    .first_name, 
+    .first_name{
+        right: 150px;
+        bottom: 330px;
+    }
+
     .last_name{
-        right: 130px;
+        right: 154px;
+        top: 670px;
     }
 
-       
     .stars_tags{
-        margin-right: 135px;
+        margin-right: 140px;
     }
 
     .name{
-        font-size: 20px;
+        font-size: 30px;
     }
     
     .collapsedescription{
-        width: 350px;
+        width: 295px;
+        margin-left: 45px;
     }
+    
     .collapse_arrow{
         margin-left: 0;
         margin-top: 10px;
@@ -260,8 +265,8 @@ body{
         justify-content: center;
       
     }
+
     .description{
- 
         flex-shrink: 0;
         color:#FF6060;
         margin-top: 15px;
@@ -271,22 +276,45 @@ body{
         font-style: normal;
         font-weight: 400;
         line-height: 142.6%;
-        width: 350px;
-        
+        width: 295px;
+        margin-left: 45px;
     }
+    
     .contenu{
-        width: 738px;
+        width: 700px;
         height: 650px;
         flex-shrink: 0;
         margin-left: 15px;
     }
    
-    
-    #root
-    {
+    #root{
         width:768px;
     }
+
+    .container_name,
+    .container_tags{
+        margin-left: 35px;
+        margin-bottom: 5px;
+    }
+
+    .location{
+        margin-left: 35px;
+        margin-bottom: 5px;
+    }
+
+    .Spacer{
+        width: 40px;
+    }
     
+    .headers{
+        width: 283px;
+    }
+
+    .rates{
+        margin-left: 15px;
+        margin-top: 75px;
+    }
+   
 }
 
                 /* -----------------> Styles pour les écrans étroits (téléphones mobiles) <-----------------------------*/
@@ -300,21 +328,21 @@ body{
         flex-direction: column;
         width: 300px;
         margin-left: 15px;
-        
     }
+
     .img_host{
         left: 325px;
         position: absolute;
-        bottom: 165px;
+        bottom: 185px;
         height: 65px;
     }
 
     .first_name,
     .last_name{
         position: absolute;
-        right: 110px;
-        margin-top: 115px;
-        bottom: 200px;
+        right: 100px;
+        margin-top: 30px;
+        bottom: 220px;
     }
     
     .rates{
@@ -324,9 +352,13 @@ body{
     }
        
     .stars_tags{
-        margin-left: 20px;
+        margin-left: 0px;
         margin-bottom: 30px;
+    }
 
+    .stars{
+        width: 130px;
+        height: 25px;
     }
 
     .name{
@@ -336,7 +368,6 @@ body{
         flex-shrink: 0;
         font-size: 25px;
         margin-bottom: 15px;
-        margin-left: 20px;
         width:380px;
     }
 
@@ -346,26 +377,29 @@ body{
         justify-content: flex-end;
         flex-shrink: 0;
         font-size: 15px;
-        margin-left:20px;
+        margin-left:0px;
         margin-bottom: 15px;
     }
 
     .collapsedescription{
         width: 380px;
+        margin-left: -15px;
     }
+
     .collapse_arrow{
         margin-left: 0;
         margin-top: 10px;
     }
+
     .details{
         margin-left: 0;
         margin-right: 0;
         display: flex;
         justify-content: normal;
-      
     }
+
     .description{
- 
+        margin-left: -13px;
         flex-shrink: 0;
         color:#FF6060;
         margin-top: 15px;
@@ -376,14 +410,14 @@ body{
         font-weight: 400;
         line-height: 142.6%;
         width:  380px;
-        
     }
+
     .contenu{
-        
         flex-shrink: 0;
         margin-left: 0px;
         width:380px;
         height:1000px;
+        margin-left: 15px;
     }
    
     #root {
@@ -393,17 +427,17 @@ body{
     .container_tags{
         width: 380px;
         margin-bottom: 115px;
-       
+        margin-left: 0px;
     }
 
     .CollapseBox{
-    display:flex;
-    flex-direction: column;
+        display:flex;
+        flex-direction: column;
     }
 
     .Spacer{
         width: 100px;
-      }
+    }
 
     .tags{
         height: 37px;
@@ -412,4 +446,9 @@ body{
         display: flex;
         justify-content: center;
     }  
+
+    .container_name{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
 }

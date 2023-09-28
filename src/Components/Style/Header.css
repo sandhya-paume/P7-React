@@ -38,6 +38,21 @@
     margin-left: 60px;
 }
 
+.nav_home_underlined{
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; 
+    text-decoration-line: none;
+    width: 136px;
+    margin-right: 53px;
+    margin-left: 60px;
+text-decoration: underline;
+}
+
 .nav_about{
     color: #FF6060;
     text-align: right;
@@ -51,25 +66,55 @@
     
 }
 
-/*--------------------------- RESPONSIVE DESIGN ------------------------------*/
+.nav_about_underlined{
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; 
+    width: 116px;
+    text-decoration: underline;
+    
+}
+
+                                /*--------------------------- RESPONSIVE DESIGN ------------------------------*/
 
 
-/* Styles pour les écrans de taille moyenne (tablettes) */
+            /* -----------------------> Styles pour les écrans de taille moyenne (tablettes) <----------------------------------- */
 @media (max-width: 768px) {
-
-    .header_logo{
-    width: 0px; 
-    height: 60px;
-    flex-shrink: 0;
-    }
-
+   
     .header{
         gap: 0px;
     }
 }
 
-/* Styles pour les écrans étroits (téléphones mobiles) */
+            /* -----------------------> Styles pour les écrans étroits (téléphones mobiles) <----------------------------------- */
 @media (max-width: 480px) {
+
+ 
+    .nav_home_underlined{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .nav_about_underlined{
+        font-size: 20px;
+        margin-left: 85px;
+    }
+
+    .nav_about{
+        font-size: 20px;
+        margin: -40px;
+    }
+
+    .nav_home{
+        font-size: 20px;
+        position: absolute;
+        right: 80px;
+    }
+
     .header {
         padding: 0px 0px 0px 0px;
         gap: 0px;
@@ -82,13 +127,7 @@
         width: 240px; 
         padding:0;
     }
-
-    .nav_home,
-    .nav_about {
-        font-size: 20px; 
-        margin: 3px; 
-    }
-
+    
     .nav{
         width:200px;
         margin-left: -40px;

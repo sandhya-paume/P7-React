@@ -1,3 +1,6 @@
+/* Importation de la police Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .banner{
     position: relative;
     border-radius: 25px;
@@ -11,19 +14,16 @@
     opacity: 0.9;
     margin-bottom: 75px;
     margin-left: 16%;
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
 }
 
 h1{
+    font-weight: 500;
     color: #FFF;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 48px;
     font-style: normal;
     z-index: 1;
     position: absolute;
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
 }
 
 .banner_img{
@@ -36,8 +36,13 @@ h1{
 }
 
 
-/* Styles pour les écrans de taille moyenne (tablette) */
+                        /*--------------------------- RESPONSIVE DESIGN ------------------------------*/
+
+
+            /* -----------------------> Styles pour les écrans de taille moyenne (tablettes) <----------------------------------- */
+
 @media (max-width: 768px) {
+
     .banner {
         width: 100%;
         margin-left: 0px;
@@ -52,8 +57,10 @@ h1{
     }
 }
 
-/* Styles pour les écrans étroits (téléphones mobiles) */
-@media (max-width: 480px) {
+                /* -----------------> Styles pour les écrans étroits (téléphones mobiles) <-----------------------------*/
+
+    @media (max-width: 480px) {
+
     .banner {
         width: 100%;
         border-radius: 0;
