@@ -101,7 +101,7 @@ text-decoration: underline;
 
     .nav_about_underlined{
         font-size: 20px;
-        margin-left: 85px;
+        margin: -40px;
     }
 
     .nav_about{
@@ -110,9 +110,8 @@ text-decoration: underline;
     }
 
     .nav_home{
+        margin-left: 0px;
         font-size: 20px;
-        position: absolute;
-        right: 80px;
     }
 
     .header {

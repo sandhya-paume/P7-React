@@ -6,13 +6,13 @@ import { Link } from "react-router-dom"
 function Header() {
   const currentPath = window.location.pathname;
 
-  // Divisez le chemin de la route en segments en utilisant le caractère '/'
+  // Pour diviser le chemin de la route en segments en utilisant le caractère '/'
   const pathSegments = currentPath.split('/');
 
-  // Obtenez le premier segment, qui devrait être la première partie de l'URL
+  // Pour obtenir le premier segment, qui devrait être la première partie de l'URL
   const firstPartOfURL = pathSegments[1];
 
-  console.log("Première partie de l'URL : " + firstPartOfURL);
+  //console.log("Première partie de l'URL : " + firstPartOfURL);
   
 
   
