@@ -88,6 +88,10 @@ text-decoration: underline;
     .header{
         gap: 0px;
     }
+
+    .header_logo{
+    padding-right: 195px;
+    }
 }
 
             /* -----------------------> Styles pour les écrans étroits (téléphones mobiles) <----------------------------------- */
